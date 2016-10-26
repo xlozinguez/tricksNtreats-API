@@ -1,0 +1,85 @@
+{
+	"type": "Collection",
+	"properties": {
+		"latitude": {
+			"name": "latitude",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "latitude",
+			"order": 0
+		},
+		"longitude": {
+			"name": "longitude",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "longitude",
+			"order": 1
+		},
+		"streetAddress1": {
+			"name": "streetAddress1",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "streetAddress1",
+			"order": 2
+		},
+		"streetAddress2": {
+			"name": "streetAddress2",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "streetAddress2",
+			"order": 3
+		},
+		"city": {
+			"name": "city",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "city",
+			"order": 4
+		},
+		"state": {
+			"name": "state",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "state",
+			"order": 5
+		},
+		"zipcode": {
+			"name": "zipcode",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "zipcode",
+			"order": 6
+		},
+		"userId": {
+			"name": "userId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "userId",
+			"order": 7
+		},
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "name",
+			"order": 8
+		},
+		"iconPic": {
+			"name": "iconPic",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "iconPic",
+			"order": 9
+		}
+	}
+}
